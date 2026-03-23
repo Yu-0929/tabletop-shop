@@ -1,0 +1,27 @@
+{
+  "name": "tabletop-shop",
+  "version": "1.0.0",
+  "description": "桌游店软装购物系统",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "shop",
+    "ecommerce",
+    "tabletop"
+  ],
+  "author": "Ken",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.14.0"
+  }
+}
